@@ -5,7 +5,7 @@ import cv2
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
 
 # Load input video (replace with your video path)
-video_path = 'Notebooks/pro/test_video.mp4'
+video_path = 'test_video.mp4'
 cap = cv2.VideoCapture(video_path)
 
 # Initialize a set to track unique people

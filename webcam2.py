@@ -6,7 +6,7 @@ import numpy as np
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
 
 # Replace with your mobile camera's IP webcam link
-url = 'https://192.168.143.37:1234/video'  # Replace with your phone's IP address
+url = 'https://192.168.24.57:1234/video'  # Replace with your phone's IP address
 
 # Dictionary to store object names and counts
 class_counts = {}
